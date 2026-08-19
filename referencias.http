@@ -1,0 +1,52 @@
+###
+
+GET http://localhost:3000/usuarios
+###
+
+GET http://localhost:3000/tarefas
+
+###
+
+POST http://localhost:3000/Tarefas
+Content-Type: application/json
+
+{
+    "titulo": "cain",
+    "descricao": "12345"
+}
+
+###
+
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+    "nome": "cain",
+    "email": "cain@gmail.com",
+    "senha": "12345"
+}
+
+###
+
+PUT http://localhost:3000/usuarios/1
+Content-Type: application/json
+
+{
+    "nome": "castil",
+    "email": "castiel@gmail.com",
+    "senha": "leaf green"
+}
+
+###
+
+DELETE http://localhost:3000/usuarios/3
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "castiel@gmail.com",
+    "senha": "leaf green"
+}
