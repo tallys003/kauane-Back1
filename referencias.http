@@ -3,8 +3,7 @@
 GET http://localhost:3000/usuarios
 ###
 
-GET http://localhost:3000/tarefas
-
+GET http://localhost:3000/Tarefas
 ###
 
 POST http://localhost:3000/Tarefas
